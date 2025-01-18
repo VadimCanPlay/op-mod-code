@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "op_mod",
+  "version": "1.0.0",
+  "name": "OP Mod",
+  "authors": [
+    "Few0_, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "accessWidener": "op_mod.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.opmod.OpModMod"
+    ],
+    "client": [
+      "net.mcreator.opmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}

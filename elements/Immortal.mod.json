@@ -1,0 +1,166 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_immortality_switch",
+          "text": {
+            "fixedValue": "OP Menu"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 45,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enable",
+          "text": "Enable",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ImmON"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 185,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_please_click_once",
+          "text": {
+            "fixedValue": "Please click once."
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 171,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_disabled",
+          "text": "Disabled",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ImmOFF"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 179,
+          "y": 94,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_op_yourself",
+          "text": "OP Yourself.",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OP"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 170,
+          "y": 120,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_get_gear",
+          "text": "Get Gear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GetGear"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 180,
+          "y": 149,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_immortal",
+          "text": {
+            "fixedValue": " Immortal"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 248,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_switch",
+          "text": {
+            "fixedValue": "switch"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 258,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "->",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NextPage"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 197,
+          "y": 177,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

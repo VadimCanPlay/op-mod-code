@@ -1,0 +1,150 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 178,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fly",
+          "text": {
+            "fixedValue": "Fly"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 264,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_switch",
+          "text": {
+            "fixedValue": "Switch"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 257,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_enabled",
+          "text": "Enabled",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FlyON"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 181,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_disabled",
+          "text": "Disabled",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "FlyOFF"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 178,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "<-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PrevPage"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 162,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "->",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenGUI3"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 226,
+          "y": 169,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clear_inv",
+          "text": "Clear inv",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Clear"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 176,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_kill_self",
+          "text": "Kill self",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Kill"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 176,
+          "y": 141,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "mod_elements": [
+    {
+      "name": "Immortal",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/network/ImmortalButtonMessage.java",
+          "src/main/java/net/mcreator/opmod/world/inventory/ImmortalMenu.java",
+          "src/main/java/net/mcreator/opmod/client/gui/ImmortalScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "OpenGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/OpenGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ImmortalGUI",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/network/ImmortalGUIMessage.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "ImmON",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imm_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/ImmONProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ImmOFF",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imm_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/ImmOFFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/OPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GetGear",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_gear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GetGearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PrevPage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prev_page",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/PrevPageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FlyON",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/FlyONProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FlyOFF",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/FlyOFFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Immortal2",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/network/Immortal2ButtonMessage.java",
+          "src/main/java/net/mcreator/opmod/world/inventory/Immortal2Menu.java",
+          "src/main/java/net/mcreator/opmod/client/gui/Immortal2Screen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "NextPage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_page",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/NextPageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GodMode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_mode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GodModeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GodModeOFF",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_mode_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GodModeOFFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ImmortalPage3",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortal_page_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/network/ImmortalPage3ButtonMessage.java",
+          "src/main/java/net/mcreator/opmod/world/inventory/ImmortalPage3Menu.java",
+          "src/main/java/net/mcreator/opmod/client/gui/ImmortalPage3Screen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "OpenGUI3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/OpenGUI3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PrevPage3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prev_page_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/PrevPage3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Gmc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GmcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Gmsur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GmsurProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Gma",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GmaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Gmspe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmspe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/GmspeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Kill",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/KillProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Clear",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/procedures/ClearProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OPRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/op_mod/recipes/op_recipe_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OPRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/op_mod/recipes/op_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OPRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/op_mod/recipes/op_recipe_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OPRecipe4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/op_mod/recipes/op_recipe_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OPRecipe5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_recipe_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/op_mod/recipes/op_recipe_5.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DupingGUI",
+      "type": "gui",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "duping_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/world/inventory/DupingGUIMenu.java",
+          "src/main/java/net/mcreator/opmod/network/DupingGUIButtonMessage.java",
+          "src/main/java/net/mcreator/opmod/client/gui/DupingGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "Dupe",
+      "type": "keybind",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "dupe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/opmod/network/DupeMessage.java"
+        ]
+      },
+      "path": "~/GUIs"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.op_mod.immortal.immortallName": "Player name",
+      "gui.op_mod.immortal_page_3.button_survival": "Survival",
+      "gui.op_mod.immortal_2.button_disabled1": "Disabled",
+      "gui.op_mod.immortal_page_3.button_empty": "\u003c-",
+      "gui.op_mod.immortal_page_3.button_creative": "Creative",
+      "gui.op_mod.immortal_page_3.button_spectator": "Spectator",
+      "key.op_mod.dupe": "Dupe",
+      "gui.op_mod.immortal_2.label_switch1": "Switch",
+      "gui.op_mod.immortal.button_enable": "Enable",
+      "gui.op_mod.immortal_2.button_enabled1": "Enabled",
+      "gui.op_mod.immortal.label_player_name": "Player Name",
+      "gui.op_mod.immortal_2.button_empty": "\u003c-",
+      "gui.op_mod.immortal_2.label_switch": "Switch",
+      "key.op_mod.immortal_gui": "OP GUI",
+      "gui.op_mod.immortal_2.button_disabled": "Disabled",
+      "gui.op_mod.immortal.button_op_yourself": "OP Yourself.",
+      "gui.op_mod.immortal.immortalCheck": "Immortality",
+      "gui.op_mod.immortal_2.label_fly": "Fly",
+      "gui.op_mod.immortal_2.button_enabled": "Enabled",
+      "gui.op_mod.immortal_2.button_clear_inv": "Clear inv",
+      "gui.op_mod.duping_gui.label_item_out_duped": "Item Out (Duped)",
+      "gui.op_mod.immortal.button_disabled": "Disabled",
+      "gui.op_mod.immortal_2.label_one_hit": "One Hit",
+      "gui.op_mod.immortal_page_3.button_adventure": "Adventure",
+      "gui.op_mod.duping_gui.label_dupe_gui": "Dupe GUI",
+      "gui.op_mod.immortal.button_empty": "-\u003e",
+      "gui.op_mod.immortal.button_get_gear": "Get Gear",
+      "gui.op_mod.duping_gui.label_item_in": "Item In",
+      "gui.op_mod.immortal.label_warning_advancements_will_be_gi": "Advancements will be given!",
+      "gui.op_mod.immortal.label_switch": "switch",
+      "gui.op_mod.immortal.label_immortal": " Immortal",
+      "gui.op_mod.immortal.label_please_click_once": "Please click once.",
+      "gui.op_mod.immortal_page_3.label_gamemode_changer": "Gamemode Changer",
+      "gui.op_mod.duping_gui.button_dupe": "Dupe!",
+      "gui.op_mod.immortal.label_immortality_switch": "OP Menu",
+      "gui.op_mod.immortal_2.button_empty1": "-\u003e",
+      "gui.op_mod.immortal_2.button_kill_self": "Kill self"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "op_mod",
+    "modName": "OP Mod",
+    "version": "1.0.0",
+    "author": "Few0_, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mcreator.opmod"
+  },
+  "mcreatorVersion": 202400452410
+}

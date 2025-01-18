@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_block",
+    "count": 64
+  }
+}
